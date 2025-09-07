@@ -4,73 +4,73 @@ return [
     'form' => [
 
         'name' => [
-            'label' => 'Name',
+            'label' => 'Имя',
         ],
 
         'team_owner' => [
-            'label' => 'Team Owner',
+            'label' => 'Владелец команды',
         ],
 
         'email' => [
-            'label' => 'Email',
+            'label' => 'Эл. почта',
         ],
 
         'password' => [
 
-            'label' => 'Password',
+            'label' => 'Пароль',
 
-            'error_message' => 'The provided password was incorrect.',
+            'error_message' => 'Указан неверный пароль.',
 
         ],
 
         'code' => [
 
-            'label' => 'Code',
+            'label' => 'Код',
 
-            'hint' => 'Please confirm access to your account by entering the authentication code provided by your authenticator application.',
+            'hint' => 'Подтвердите доступ к аккаунту, введя код аутентификации из приложения-аутентификатора.',
 
-            'error_message' => 'The provided two factor authentication code is invalid.',
+            'error_message' => 'Неверный код двухфакторной аутентификации.',
 
         ],
 
         'profile_photo' => [
-            'label' => 'Photo',
+            'label' => 'Фото',
         ],
 
         'current_password' => [
-            'label' => 'Current Password',
+            'label' => 'Текущий пароль',
         ],
 
         'new_password' => [
-            'label' => 'New Password',
+            'label' => 'Новый пароль',
         ],
 
         'confirm_password' => [
-            'label' => 'Confirm Password',
+            'label' => 'Подтвердите пароль',
         ],
 
         'recovery_code' => [
 
-            'label' => 'Recovery Code',
+            'label' => 'Резервный код',
 
-            'hint' => 'Please confirm access to your account by entering one of your emergency recovery codes.',
+            'hint' => 'Подтвердите доступ к аккаунту, введя один из аварийных резервных кодов.',
 
         ],
 
         'token_name' => [
-            'label' => 'Token Name',
+            'label' => 'Имя токена',
         ],
 
         'permissions' => [
-            'label' => 'Permissions',
+            'label' => 'Разрешения',
         ],
 
         'team_name' => [
-            'label' => 'Team Name',
+            'label' => 'Название команды',
         ],
 
         'or' => [
-            'label' => 'Or ',
+            'label' => 'Или ',
         ],
 
     ],
@@ -80,19 +80,19 @@ return [
         'columns' => [
 
             'token_name' => [
-                'label' => 'Tokens',
+                'label' => 'Токены',
             ],
 
             'pending_invitations' => [
-                'label' => 'Pending Invitations',
+                'label' => 'Ожидающие приглашения',
             ],
 
             'team_members' => [
-                'label' => 'Members',
+                'label' => 'Участники',
             ],
 
             'role' => [
-                'label' => 'Role',
+                'label' => 'Роль',
             ],
 
         ],
@@ -104,7 +104,7 @@ return [
         'save' => [
 
             'success' => [
-                'message' => 'Saved.',
+                'message' => 'Сохранено.',
             ],
 
         ],
@@ -112,11 +112,11 @@ return [
         'create_token' => [
 
             'success' => [
-                'message' => 'Please copy your new API token. For your security, it won\'t be shown again.',
+                'message' => 'Скопируйте новый токен API. В целях безопасности он больше не будет показан.',
             ],
 
             'error' => [
-                'message' => 'Select at least one permission.',
+                'message' => 'Выберите хотя бы одно разрешение.',
             ],
 
         ],
@@ -124,7 +124,7 @@ return [
         'copy_token' => [
 
             'success' => [
-                'message' => 'copied to clipboard',
+                'message' => 'скопировано в буфер обмена',
             ],
 
         ],
@@ -132,7 +132,7 @@ return [
         'token_deleted' => [
 
             'success' => [
-                'message' => 'Token deleted!',
+                'message' => 'Токен удалён!',
             ],
 
         ],
@@ -140,33 +140,33 @@ return [
         'team_deleted' => [
 
             'success' => [
-                'message' => 'Team deleted!',
+                'message' => 'Команда удалена!',
             ],
 
         ],
 
         'team_member_removed' => [
             'success' => [
-                'message' => 'You have removed this team member.',
+                'message' => 'Вы удалили этого участника команды.',
             ],
         ],
 
         'team_invitation_sent' => [
             'success' => [
-                'message' => 'Team invitation sent.',
+                'message' => 'Приглашение в команду отправлено.',
             ],
         ],
 
         'team_invitation_cancelled' => [
             'success' => [
-                'message' => 'Team invitation cancelled.',
+                'message' => 'Приглашение в команду отменено.',
             ],
         ],
 
         'leave_team' => [
 
             'success' => [
-                'message' => 'You have left the team.',
+                'message' => 'Вы покинули команду.',
             ],
 
         ],
@@ -175,38 +175,38 @@ return [
 
             'success' => [
 
-                'title' => 'Team Invitation Accepted',
+                'title' => 'Приглашение в команду принято',
 
-                'message' => 'Great! You have accepted the invitation to join the :team team.',
+                'message' => 'Отлично! Вы приняли приглашение присоединиться к команде :team.',
 
             ],
         ],
 
         'rate_limited' => [
 
-            'title' => 'Too many requests',
+            'title' => 'Слишком много запросов',
 
-            'message' => 'Please try again in :seconds seconds',
+            'message' => 'Повторите попытку через :seconds с',
 
         ],
 
         'logged_out_other_sessions' => [
 
             'success' => [
-                'message' => 'All other browser sessions have been logged out successfully.',
+                'message' => 'Все прочие сеансы в браузере были успешно завершены.',
             ],
 
         ],
 
         'permission_denied' => [
 
-            'cannot_update_team_member' => 'You do not have permission to update this team member.',
+            'cannot_update_team_member' => 'У вас нет прав на обновление данных этого участника команды.',
 
-            'cannot_leave_team' => 'You may not leave a team that you created.',
+            'cannot_leave_team' => 'Вы не можете покинуть команду, которую создали.',
 
-            'cannot_remove_team_member' => 'You do not have permission to remove this team member.',
+            'cannot_remove_team_member' => 'У вас нет прав на удаление этого участника команды.',
 
-            'cannot_delete_team' => 'You do not have permission to delete this team.',
+            'cannot_delete_team' => 'У вас нет прав на удаление этой команды.',
 
         ],
     ],
@@ -214,36 +214,36 @@ return [
     'action' => [
 
         'save' => [
-            'label' => 'Save',
+            'label' => 'Сохранить',
         ],
 
         'confirm' => [
-            'label' => 'Confirm',
+            'label' => 'Подтвердить',
         ],
 
         'cancel' => [
-            'label' => 'Cancel',
+            'label' => 'Отмена',
         ],
 
         'disable' => [
-            'label' => 'Disable',
+            'label' => 'Отключить',
         ],
 
         'enable' => [
-            'label' => 'Enable',
+            'label' => 'Включить',
         ],
 
         'two_factor_authentication' => [
 
             'label' => [
 
-                'regenerate_recovery_codes' => 'Regenerate Recovery Codes',
+                'regenerate_recovery_codes' => 'Сгенерировать новые резервные коды',
 
-                'use_recovery_code' => 'use a recovery code',
+                'use_recovery_code' => 'использовать резервный код',
 
-                'use_authentication_code' => 'use an authentication code',
+                'use_authentication_code' => 'использовать код аутентификации',
 
-                'logout' => 'Logout',
+                'logout' => 'Выйти',
 
             ],
 
@@ -251,98 +251,98 @@ return [
 
         'update_token' => [
 
-            'title' => 'API Token Permissions',
+            'title' => 'Разрешения токена API',
 
-            'label' => 'Permissions',
+            'label' => 'Разрешения',
 
             'modal' => [
-                'label' => 'Save',
+                'label' => 'Сохранить',
             ],
 
         ],
 
         'delete_token' => [
 
-            'title' => 'Delete API Token',
+            'title' => 'Удалить токен API',
 
-            'description' => 'Are you sure you would like to delete this API token?',
+            'description' => 'Вы уверены, что хотите удалить этот токен API?',
 
-            'label' => 'Remove',
+            'label' => 'Удалить',
 
         ],
 
         'delete_account' => [
 
-            'label' => 'Delete Account',
+            'label' => 'Удалить аккаунт',
 
-            'notice' => 'Are you sure you want to delete your account? Once your account is deleted, all of its resources and data will be permanently deleted. Please enter your password to confirm you would like to permanently delete your account.',
+            'notice' => 'Вы уверены, что хотите удалить свою учётную запись? После удаления все связанные ресурсы и данные будут удалены без возможности восстановления. Введите ваш пароль, чтобы подтвердить удаление учётной записи.',
 
         ],
 
         'delete_team' => [
 
-            'label' => 'Delete Team',
+            'label' => 'Удалить команду',
 
-            'notice' => 'Are you sure you want to delete this team? Once a team is deleted, all of its resources and data will be permanently deleted.',
+            'notice' => 'Вы уверены, что хотите удалить эту команду? После удаления все её ресурсы и данные будут безвозвратно удалены.',
 
         ],
 
         'create_token' => [
-            'label' => 'Create Token',
+            'label' => 'Создать токен',
         ],
 
         'copy_token' => [
-            'label' => 'Copy',
+            'label' => 'Копировать',
         ],
 
         'add_team_member' => [
 
-            'label' => 'Add',
+            'label' => 'Добавить',
 
             'error_message' => [
 
-                'email_already_joined' => 'This user already belongs to the team.',
+                'email_already_joined' => 'Этот пользователь уже состоит в команде.',
 
-                'email_not_found' => 'We were unable to find a registered user with this email address.',
+                'email_not_found' => 'Не удалось найти зарегистрированного пользователя с таким адресом эл. почты.',
 
-                'email_already_invited' => 'This user has already been invited to the team.',
+                'email_already_invited' => 'Этому пользователю уже отправлено приглашение в команду.',
 
             ],
         ],
 
         'update_team_role' => [
-            'title' => 'Manage Role',
+            'title' => 'Управление ролью',
         ],
 
         'remove_team_member' => [
 
-            'label' => 'Remove',
+            'label' => 'Удалить',
 
-            'notice' => 'Are you sure you would like to remove this team member?',
+            'notice' => 'Вы уверены, что хотите удалить этого участника команды?',
         ],
 
         'leave_team' => [
 
-            'label' => 'Leave',
+            'label' => 'Покинуть',
 
-            'notice' => 'Are you sure you would like to leave this team?',
+            'notice' => 'Вы уверены, что хотите покинуть эту команду?',
         ],
 
         'resend_team_invitation' => [
-            'label' => 'Resend',
+            'label' => 'Отправить ещё раз',
         ],
 
         'cancel_team_invitation' => [
-            'label' => 'Cancel',
+            'label' => 'Отмена',
         ],
 
         'log_out_other_browsers' => [
 
-            'label' => 'Log Out Other Browser Sessions',
+            'label' => 'Выйти из других сеансов',
 
-            'title' => 'Log Out Other Browser Sessions',
+            'title' => 'Выйти из других сеансов',
 
-            'description' => 'Enter your password to confirm you would like to log out of your other browser sessions across all of your devices.',
+            'description' => 'Введите пароль, чтобы подтвердить выход из других сеансов на всех устройствах.',
 
         ],
 
@@ -352,21 +352,21 @@ return [
 
         'team_invitation' => [
 
-            'subject' => 'Team Invitation',
+            'subject' => 'Приглашение в команду',
 
             'message' => [
-                'invitation' => 'You have been invited to join the :team team!',
+                'invitation' => 'Вас пригласили присоединиться к команде :team!',
 
-                'instruction' => 'Click the button below to accept the invitation and get started:',
+                'instruction' => 'Нажмите кнопку ниже, чтобы принять приглашение и начать работу:',
 
-                'notice' => 'If you did not expect to receive an invitation to this team, you may discard this email.',
+                'notice' => 'Если вы не ожидали приглашение в эту команду, просто проигнорируйте это письмо.',
             ],
 
             'label' => [
 
-                'create_account' => 'Create Account',
+                'create_account' => 'Создать аккаунт',
 
-                'accept_invitation' => 'Accept Invitation',
+                'accept_invitation' => 'Принять приглашение',
 
             ],
 
@@ -378,13 +378,13 @@ return [
 
         'create_team' => [
 
-            'title' => 'Create Team',
+            'title' => 'Создать команду',
 
         ],
 
         'edit_team' => [
 
-            'title' => 'Team Settings',
+            'title' => 'Настройки команды',
 
         ],
 
@@ -393,7 +393,7 @@ return [
     'menu_item' => [
 
         'api_tokens' => [
-            'label' => 'API Tokens',
+            'label' => 'Токены API',
         ],
 
     ],
@@ -405,9 +405,9 @@ return [
 
         'section' => [
 
-            'title' => 'Profile Information',
+            'title' => 'Информация профиля',
 
-            'description' => 'Update your account\'s profile information and email address.',
+            'description' => 'Обновите информацию профиля и адрес электронной почты вашего аккаунта.',
 
         ],
 
@@ -417,9 +417,9 @@ return [
 
         'section' => [
 
-            'title' => 'Update Password',
+            'title' => 'Обновить пароль',
 
-            'description' => 'Ensure your account is using a long, random password to stay secure.',
+            'description' => 'Для безопасности используйте длинный, случайный пароль.',
 
         ],
 
@@ -429,9 +429,9 @@ return [
 
         'section' => [
 
-            'title' => 'Two Factor Authentication',
+            'title' => 'Двухфакторная аутентификация',
 
-            'description' => 'Add additional security to your account using two factor authentication.',
+            'description' => 'Добавьте дополнительную защиту аккаунта с помощью двухфакторной аутентификации.',
 
         ],
 
@@ -441,11 +441,11 @@ return [
 
         'section' => [
 
-            'title' => 'Delete Account',
+            'title' => 'Удалить аккаунт',
 
-            'description' => 'Permanently delete your account.',
+            'description' => 'Безвозвратно удалить вашу учётную запись.',
 
-            'notice' => 'Once your account is deleted, all of its resources and data will be permanently deleted. Before deleting your account, please download any data or information that you wish to retain.',
+            'notice' => 'После удаления учётной записи все связанные ресурсы и данные будут безвозвратно удалены. Перед удалением скачайте данные, которые хотите сохранить.',
 
         ],
 
@@ -455,9 +455,9 @@ return [
 
         'section' => [
 
-            'title' => 'Create API Token',
+            'title' => 'Создать токен API',
 
-            'description' => 'API tokens allow third-party services to authenticate with our application on your behalf.',
+            'description' => 'Токены API позволяют сторонним сервисам проходить аутентификацию в нашем приложении от вашего имени.',
 
         ],
 
@@ -467,9 +467,9 @@ return [
 
         'section' => [
 
-            'title' => 'Manage API Tokens',
+            'title' => 'Управление токенами API',
 
-            'description' => 'You may delete any of your existing tokens if they are no longer needed.',
+            'description' => 'Вы можете удалить любые существующие токены, если они больше не нужны.',
 
         ],
 
@@ -479,19 +479,19 @@ return [
 
         'section' => [
 
-            'title' => 'Browser Sessions',
+            'title' => 'Сеансы в браузере',
 
-            'description' => 'Manage and log out your active sessions on other browsers and devices.',
+            'description' => 'Управляйте активными сеансами на других браузерах и устройствах и выходите из них.',
 
-            'notice' => 'If necessary, you may log out of all of your other browser sessions across all of your devices. Some of your recent sessions are listed below; however, this list may not be exhaustive. If you feel your account has been compromised, you should also update your password.',
+            'notice' => 'При необходимости вы можете выйти из всех остальных сеансов на всех устройствах. Ниже перечислены некоторые из недавних сеансов; список может быть неполным. Если вы считаете, что ваш аккаунт был скомпрометирован, также обновите пароль.',
 
             'labels' => [
 
-                'current_device' => 'This device',
+                'current_device' => 'Это устройство',
 
-                'last_active' => 'Last active',
+                'last_active' => 'Последняя активность',
 
-                'unknown_device' => 'Unknown',
+                'unknown_device' => 'Неизвестно',
 
             ],
 
@@ -503,7 +503,7 @@ return [
 
         'section' => [
 
-            'title' => 'Create Team',
+            'title' => 'Создать команду',
 
         ],
 
@@ -513,9 +513,9 @@ return [
 
         'section' => [
 
-            'title' => 'Team Name',
+            'title' => 'Название команды',
 
-            'description' => 'The team\'s name and owner information.',
+            'description' => 'Название команды и информация о владельце.',
 
         ],
 
@@ -525,11 +525,11 @@ return [
 
         'section' => [
 
-            'title' => 'Add Team Member',
+            'title' => 'Добавить участника команды',
 
-            'description' => 'Add a new team member to your team, allowing them to collaborate with you.',
+            'description' => 'Добавьте нового участника в команду, чтобы он мог сотрудничать с вами.',
 
-            'notice' => 'Please provide the email address of the person you would like to add to this team.',
+            'notice' => 'Укажите адрес эл. почты человека, которого вы хотите добавить в эту команду.',
 
         ],
 
@@ -539,9 +539,9 @@ return [
 
         'section' => [
 
-            'title' => 'Team Members',
+            'title' => 'Участники команды',
 
-            'description' => 'All of the people that are part of this team.',
+            'description' => 'Все участники этой команды.',
 
         ],
 
@@ -551,9 +551,9 @@ return [
 
         'section' => [
 
-            'title' => 'Pending Team Invitations',
+            'title' => 'Ожидающие приглашения в команду',
 
-            'description' => 'These people have been invited to your team and have been sent an invitation email. They may join the team by accepting the email invitation.',
+            'description' => 'Эти люди приглашены в вашу команду и получили письмо с приглашением. Они смогут присоединиться, приняв приглашение из письма.',
 
         ],
 
@@ -563,11 +563,11 @@ return [
 
         'section' => [
 
-            'title' => 'Delete Team',
+            'title' => 'Удалить команду',
 
-            'description' => 'Permanently delete this team.',
+            'description' => 'Безвозвратно удалить эту команду.',
 
-            'notice' => 'Once a team is deleted, all of its resources and data will be permanently deleted. Before deleting this team, please download any data or information that you wish to retain.',
+            'notice' => 'После удаления команды все её ресурсы и данные будут безвозвратно удалены. Перед удалением скачайте данные, которые хотите сохранить.',
 
         ],
 
